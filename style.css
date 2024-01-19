@@ -297,6 +297,10 @@ section{
   }
   .team-content h3{font-size: 25px; margin-bottom: 0;}
   .team-content h6{margin-bottom: 78px;}
+  .team-content h6 a{
+    text-decoration: none;
+    color: white;
+  }
   .our-team .title {
     font-size: 15px;
     color: #4e5052;
