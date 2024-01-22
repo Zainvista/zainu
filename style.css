@@ -38,7 +38,7 @@ nav ul li a:before {
   transition: all .5s;
 }
 nav ul li a:hover {
-  color: #74ffbe;
+  color: #F27900;
 }
 
 
@@ -57,7 +57,7 @@ nav.fill ul li a:after {
   width: 0%;
   content: '.';
   color: transparent;
-  background: #ffffff;
+  background: #F27900;
   height: 1px;
 }
 nav.stroke ul li a:hover:after {
@@ -70,7 +70,7 @@ nav.stroke ul li a:hover:after {
 # banner 
 --------------------------------------------------------------*/
 .banner-bg {
-    background-color: rgb(245, 255, 247);
+  background: linear-gradient(180deg, rgba(150,75,0,1) 28%, rgba(242,121,0,1) 100%);
 }
 #banner .col-lg-6 {
 display: flex;   
@@ -81,10 +81,11 @@ align-items: center;
     font-weight: 700;
     font-size: 46px;
     text-align: center;
+    color: white;
 }
 
 #banner .col-lg-6 h4{
-    color: #aaa;
+    color: rgb(201, 201, 201);
     text-align: center;
 }
 
@@ -131,8 +132,9 @@ align-items: center;
     width: 1.875rem;
     height: 3.125rem;
     border-radius: 10rem;
-    border: 2px solid #000;
-	left: 47%
+    border: 2px solid white;
+	left: 47%;
+  display: flex none;
 }
 .mouse::after {
 	box-sizing: border-box;    
@@ -146,7 +148,7 @@ align-items: center;
     left: 50%;
     width: 6px;
     height: 6px;
-    background: #07374a;
+    background: white;
     border-radius: 50%;
     -webkit-animation: mouse 2s linear infinite;
     -moz-animation: mouse 2s linear infinite;
@@ -223,14 +225,14 @@ section{
   padding: 10px 15px;
   color: white;
   border-radius: 10px;
-  background-color: #198754;
+  background-color: #964B00;
   font-size: 12px;
 }
 #About .text-section a:hover{
-  color: #198754;
+  color: #F27900;
   transition: 0.5s;
   background-color: transparent;
-  border: 1px white solid;
+  border: 1px #F27900 solid;
 
 }
 .About-bg{
@@ -268,7 +270,7 @@ section{
     width: 100%;
     height: 0;
     border-radius: 50%;
-    background-color: #198754;
+    background-color: #964B00;
     position: absolute;
     bottom: 135%;
     right: 0;
@@ -297,7 +299,10 @@ section{
   }
   .team-content h3{font-size: 25px; margin-bottom: 0;}
   .team-content h6{margin-bottom: 78px;}
-  .team-content h6 a{text-decoration: none;color: #FFF;}
+  .team-content h6 a{
+    text-decoration: none;
+    color: white;
+  }
   .our-team .title {
     font-size: 15px;
     color: #4e5052;
@@ -310,7 +315,7 @@ section{
   
   .our-team .social {
     width: 100%;
-    background-color: #198754;
+    background-color: #964B00;
     position: absolute;
     bottom: -100px;
     left: 0;
@@ -333,28 +338,39 @@ section{
     transition: all 0.3s ease 0s;
   }
   
-  .our-team .social li a:hover {
-    color: #198754;
-    background-color: rgb(245, 255, 247);
+  .our-team .social li .fa-facebook-f:hover  {
+    color: #1877f2;
   }
+  .our-team .social li .fa-youtube:hover  {
+    color: red;
+  }
+  .our-team .social li .fa-x-twitter:hover  {
+    color: black;
+  }.our-team .social li .fa-instagram:hover  {
+    color: rgb(204, 0, 255);
+  }
+.our-team .social li .fa-whatsapp:hover  {
+  color: rgb(0, 153, 77);
+}
+
 
   /*--------------------------------------------------------------
 # Services 
 --------------------------------------------------------------*/
 .Services-bg {
-  background-color:rgb(245, 255, 247) ;
+  background-color:#ffefdf ;
 }
 .service_box{
   margin:20px 0;
   padding:40px 20px;
   text-align: center;
   border-radius:5px;
-  background:rgba(59, 63, 66,0.7);
+  background:rgba(94, 99, 102, 0.7);
   transition: all 0.30s ease 0s;
 }
 
 .service_box:hover{
-  background:#198754;
+  background:#964B00;
 }
 .service_box .service_icon{
   width:70px;
@@ -371,7 +387,7 @@ section{
   transform: translateY(-100%);
 }
 .service_box .service_icon i{
-  color:#198754;
+  color:#964B00;
 }
 .service_box h3{
   position: relative;
@@ -434,7 +450,7 @@ figure{
 
 figcaption{
   width: 100%;
-  background-color: rgba(208, 255, 212, 0.5);
+  background-color: rgba(255, 236, 208, 0.5);
   transform: scale(1, 0);
   height: 100%;
   transition: 0.4s;
@@ -497,7 +513,7 @@ figure figcaption :not(span){
 
 .bar .progress-line span {
   position: absolute;
-  background: #198754;
+  background: #964B00;
   height: 100%;
   border-radius: 10px;
   transform: scaleX(0);
@@ -584,7 +600,7 @@ figure figcaption :not(span){
 # Contact
 --------------------------------------------------------------*/
 .Contact-bg{
-  background-color: rgb(245, 255, 247);
+  background-color:#ffefdf ;
 }
 #Contact .Contact-area{
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -593,13 +609,13 @@ figure figcaption :not(span){
 }
 #Contact .Contact-area i{
   padding: 15px;
-  background-color: rgb(245, 255, 247);
+  background-color: #ffefdf;
   border-radius: 90px;
   float: left;
-  color: #198754;
+  color: #964B00;
 }
 #Contact .address:hover i{
-  background-color: #198754;;
+  background-color: #964B00;
   transition: 0.7s;
   color: #FFF;
 
@@ -634,16 +650,16 @@ figure figcaption :not(span){
   padding: 10px 15px;
   color: white;
   border-radius: 10px;
-  background-color: #198754;
+  background-color: #964B00;
   font-size: 16px;
   margin-top: 15px;
 
 }
 #Contact .send-msg a:hover{
-  color: #198754;
+  color: #964B00;
   transition: 0.5s;
   background-color: transparent;
-  border: 1px #198754 solid;
+  border: 1px #964B00 solid;
 }
 #footer {
   text-align: center;
@@ -667,7 +683,7 @@ figure figcaption :not(span){
   position: fixed;
   text-align: center;
   border-radius: 100px;
-  background-color: #198754;
+  background-color: #964B00;
   cursor: pointer;
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.12), 3px 4px 8px 0px rgba(0, 0, 0, 0.11);
   -webkit-transition: all .8s;
@@ -675,7 +691,7 @@ figure figcaption :not(span){
 }
 
 #top-btn:hover {
-  background-color: #3aa376;
+  background-color: #F27900;
 }
 
 #top-btn:hover i {
