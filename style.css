@@ -38,7 +38,7 @@ nav ul li a:before {
   transition: all .5s;
 }
 nav ul li a:hover {
-  color: #F27900;
+  color: #948e99;
 }
 
 
@@ -57,7 +57,7 @@ nav.fill ul li a:after {
   width: 0%;
   content: '.';
   color: transparent;
-  background: #F27900;
+  background: #948e99;
   height: 1px;
 }
 nav.stroke ul li a:hover:after {
@@ -69,9 +69,7 @@ nav.stroke ul li a:hover:after {
 /*--------------------------------------------------------------
 # banner 
 --------------------------------------------------------------*/
-.banner-bg {
-  background: color green;
-}
+
 #banner .col-lg-6 {
 display: flex;   
 justify-content: center; 
@@ -81,7 +79,7 @@ align-items: center;
     font-weight: 700;
     font-size: 46px;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 #banner .col-lg-6 h4{
@@ -225,14 +223,14 @@ section{
   padding: 10px 15px;
   color: white;
   border-radius: 10px;
-  background-color: #964B00;
+  background-color: #2e1437;
   font-size: 12px;
 }
 #About .text-section a:hover{
-  color: #F27900;
+  color: #ffffff;
   transition: 0.5s;
   background-color: transparent;
-  border: 1px #F27900 solid;
+  border: 1px #948e99 solid;
 
 }
 .About-bg{
@@ -270,7 +268,7 @@ section{
     width: 100%;
     height: 0;
     border-radius: 50%;
-    background-color: #964B00;
+    background-color: #2e1437;
     position: absolute;
     bottom: 135%;
     right: 0;
@@ -315,7 +313,7 @@ section{
   
   .our-team .social {
     width: 100%;
-    background-color: #964B00;
+    background-color: #2e1437;
     position: absolute;
     bottom: -100px;
     left: 0;
@@ -358,7 +356,7 @@ section{
 # Services 
 --------------------------------------------------------------*/
 .Services-bg {
-  background-color:#ffefdf ;
+  background-color:#fafcf6 ;
 }
 .service_box{
   margin:20px 0;
@@ -370,7 +368,7 @@ section{
 }
 
 .service_box:hover{
-  background:#964B00;
+  background:#2e1437;
 }
 .service_box .service_icon{
   width:70px;
@@ -387,7 +385,7 @@ section{
   transform: translateY(-100%);
 }
 .service_box .service_icon i{
-  color:#964B00;
+  color:#2e1437;
 }
 .service_box h3{
   position: relative;
@@ -450,7 +448,7 @@ figure{
 
 figcaption{
   width: 100%;
-  background-color: rgba(255, 236, 208, 0.5);
+  background-color: rgba(246, 255, 223, 0.5);
   transform: scale(1, 0);
   height: 100%;
   transition: 0.4s;
@@ -513,7 +511,7 @@ figure figcaption :not(span){
 
 .bar .progress-line span {
   position: absolute;
-  background: #964B00;
+  background: #51425f;
   height: 100%;
   border-radius: 10px;
   transform: scaleX(0);
@@ -600,7 +598,7 @@ figure figcaption :not(span){
 # Contact
 --------------------------------------------------------------*/
 .Contact-bg{
-  background-color:#ffefdf ;
+  background-color:#fafcf6 ;
 }
 #Contact .Contact-area{
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -609,13 +607,13 @@ figure figcaption :not(span){
 }
 #Contact .Contact-area i{
   padding: 15px;
-  background-color: #ffefdf;
+  background-color: #f3f7e8;
   border-radius: 90px;
   float: left;
-  color: #964B00;
+  color: #2e1437;
 }
 #Contact .address:hover i{
-  background-color: #964B00;
+  background-color: #2e1437;
   transition: 0.7s;
   color: #FFF;
 
@@ -650,16 +648,16 @@ figure figcaption :not(span){
   padding: 10px 15px;
   color: white;
   border-radius: 10px;
-  background-color: #964B00;
+  background-color: #2e1437;
   font-size: 16px;
   margin-top: 15px;
 
 }
 #Contact .send-msg a:hover{
-  color: #964B00;
+  color: #2e1437;
   transition: 0.5s;
   background-color: transparent;
-  border: 1px #964B00 solid;
+  border: 1px #2e1437 solid;
 }
 #footer {
   text-align: center;
@@ -683,7 +681,7 @@ figure figcaption :not(span){
   position: fixed;
   text-align: center;
   border-radius: 100px;
-  background-color: #964B00;
+  background-color: #2e1437;
   cursor: pointer;
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.12), 3px 4px 8px 0px rgba(0, 0, 0, 0.11);
   -webkit-transition: all .8s;
@@ -691,7 +689,7 @@ figure figcaption :not(span){
 }
 
 #top-btn:hover {
-  background-color: #F27900;
+  background-color: #2e1437;
 }
 
 #top-btn:hover i {
