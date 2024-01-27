@@ -327,9 +327,11 @@
           </div>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12 form-area bg-light" data-aos="zoom-in-up" data-aos-duration="2000">
-        <form action="">
+        <form action="https://api.web3forms.com/submit" method="POST" target="_blank">
           <div class="row">
             <div class="col-6 your-name">
+              <input type="hidden" name="access_key" value="33c7a833-cf1a-4a5c-a81a-70aca876860d">
+
               <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
 
             </div>
@@ -345,8 +347,8 @@
               <textarea class="form-control" name="message" rows="10" data-rule="required" placeholder="Message" data-msg="Please write something for us"></textarea>
 
             </div>
-            <div class="send-msg">
-            <a href="#" target="_blank">Send Message
+            <div class="btn-div">
+           <button>Send Message</button>
           </div>
           </div>
         </form>
@@ -357,6 +359,8 @@
   </div>
   
 </section>
+<script src="https://web3forms.com/client/script.js" async defer></script>
+
 
 <!-- ======= Contact Section end ======= -->
 
