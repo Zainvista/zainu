@@ -130,7 +130,7 @@ align-items: center;
     width: 1.875rem;
     height: 3.125rem;
     border-radius: 10rem;
-    border: 2px solid white;
+    border: 2px solid #2e1437;
 	left: 47%;
   display: flex none;
 }
@@ -146,7 +146,7 @@ align-items: center;
     left: 50%;
     width: 6px;
     height: 6px;
-    background: white;
+    background: #2e1437;
     border-radius: 50%;
     -webkit-animation: mouse 2s linear infinite;
     -moz-animation: mouse 2s linear infinite;
@@ -631,7 +631,7 @@ figure figcaption :not(span){
 #Contact .form-area{
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
   padding: 30px;
-  
+
 }
 #Contact .col-lg-6 .your-name{
   margin-bottom: 30px;
@@ -639,26 +639,31 @@ figure figcaption :not(span){
 #Contact .col-lg-6 .subject{
   margin-bottom: 30px;
 }
-#Contact .send-msg{
-  justify-content: center;
-  display: flex;
-}
-#Contact .send-msg a{
-  text-decoration: none;
-  padding: 10px 15px;
-  color: white;
-  border-radius: 10px;
-  background-color: #2e1437;
-  font-size: 16px;
-  margin-top: 15px;
 
+.btn-div{
+  text-align: center;
 }
-#Contact .send-msg a:hover{
+
+
+button{
+ background-color: #2e1437;
+ padding: 7px 15px 7px 15px;
+ border-radius: 10px;
+ margin-top: 30px;
+ color: white;
+ font-size: 14px;
+}
+
+
+button:hover{
+  background-color: white;
   color: #2e1437;
-  transition: 0.5s;
-  background-color: transparent;
   border: 1px #2e1437 solid;
+  transition: 0.5s;
+  
 }
+
+
 #footer {
   text-align: center;
 }
@@ -704,8 +709,3 @@ figure figcaption :not(span){
   -webkit-transition: all .8s;
   transition: all .8s;
 }
-
-
-
-
-
