@@ -83,7 +83,7 @@ align-items: center;
 }
 
 #banner .col-lg-6 h4{
-    color: rgb(201, 201, 201);
+    color: rgb(170, 170, 170);
     text-align: center;
 }
 
@@ -223,14 +223,14 @@ section{
   padding: 10px 15px;
   color: white;
   border-radius: 10px;
-  background-color: #2e1437;
+  background-color: #00539C;
   font-size: 12px;
 }
 #About .text-section a:hover{
   color: #ffffff;
   transition: 0.5s;
   background-color: transparent;
-  border: 1px #948e99 solid;
+  border: 1px #ffffff solid;
 
 }
 .About-bg{
@@ -240,7 +240,6 @@ section{
   background-attachment: fixed;
   background-position: top;
 }
-
 
 
 .our-team {
@@ -268,7 +267,7 @@ section{
     width: 100%;
     height: 0;
     border-radius: 50%;
-    background-color: #2e1437;
+    background-color: #00539C;
     position: absolute;
     bottom: 135%;
     right: 0;
@@ -313,7 +312,7 @@ section{
   
   .our-team .social {
     width: 100%;
-    background-color: #2e1437;
+    background-color: #00539C;
     position: absolute;
     bottom: -100px;
     left: 0;
@@ -368,7 +367,7 @@ section{
 }
 
 .service_box:hover{
-  background:#2e1437;
+  background:#00539C;
 }
 .service_box .service_icon{
   width:70px;
@@ -385,7 +384,7 @@ section{
   transform: translateY(-100%);
 }
 .service_box .service_icon i{
-  color:#2e1437;
+  color:#00539C;
 }
 .service_box h3{
   position: relative;
@@ -411,10 +410,10 @@ section{
   opacity:1;
 }
 
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-
 
 figure{
   overflow: hidden;
@@ -511,7 +510,7 @@ figure figcaption :not(span){
 
 .bar .progress-line span {
   position: absolute;
-  background: #51425f;
+  background: #00539C;
   height: 100%;
   border-radius: 10px;
   transform: scaleX(0);
@@ -607,13 +606,13 @@ figure figcaption :not(span){
 }
 #Contact .Contact-area i{
   padding: 15px;
-  background-color: #f3f7e8;
+  background-color: #daeeff;
   border-radius: 90px;
   float: left;
-  color: #2e1437;
+  color: #00539C;
 }
 #Contact .address:hover i{
-  background-color: #2e1437;
+  background-color: #00539C;
   transition: 0.7s;
   color: #FFF;
 
@@ -646,7 +645,7 @@ figure figcaption :not(span){
 
 
 button{
- background-color: #2e1437;
+ background-color: #00539C;
  padding: 7px 15px 7px 15px;
  border-radius: 10px;
  margin-top: 30px;
@@ -657,8 +656,8 @@ button{
 
 button:hover{
   background-color: white;
-  color: #2e1437;
-  border: 1px #2e1437 solid;
+  color: #00539C;
+  border: 1px #00539C solid;
   transition: 0.5s;
   
 }
@@ -686,7 +685,7 @@ button:hover{
   position: fixed;
   text-align: center;
   border-radius: 100px;
-  background-color: #2e1437;
+  background-color: #00539C;
   cursor: pointer;
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.12), 3px 4px 8px 0px rgba(0, 0, 0, 0.11);
   -webkit-transition: all .8s;
@@ -694,7 +693,7 @@ button:hover{
 }
 
 #top-btn:hover {
-  background-color: #2e1437;
+  background-color: #0072d6;
 }
 
 #top-btn:hover i {
